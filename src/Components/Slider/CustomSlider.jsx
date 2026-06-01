@@ -24,7 +24,7 @@ function CustomSlider() {
     arrows: true,
   };
 
-  return (
+  return (<>
     <div className="slider-container" style={{ width: "100%", overflow: "hidden" }}>
       <Slider {...settings}>
         {/* Slide 1: Video */}
@@ -64,6 +64,13 @@ function CustomSlider() {
         </div>
       </Slider>
     </div>
+    <div>
+      <marquee behavior="" direction="" >
+     <h2 className="text-orange-500 font-bold text-xl">Alert: Students/Parents can verify the authenticity of Higher Educational Institutions (HEIs) before taking admission (Please check under Main Menu Tab (HEIs)) | Invitation of applications from eligible colleges for Deemed to be University status, may apply on the portal at https://deemed.ugc.ac.in/ | Invitation of applications from eligible colleges for conferment/extension of Autonomous status, colleges may apply on the portal at https://aucollege.ugc.ac.in
+</h2> 
+      </marquee>
+    </div>
+    </>
   );
 }
 
