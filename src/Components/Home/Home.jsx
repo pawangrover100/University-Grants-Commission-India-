@@ -1,3 +1,4 @@
+import AddSection from "../AddSection/AddSection";
 import Dropdownlist from "../Dropdown/Dropdownlist";
 import Navbar from "../Navbar/Navbar";
 import CustomSlider from "../Slider/CustomSlider";
@@ -8,6 +9,7 @@ function Home() {
       <Navbar />
       <Dropdownlist/>
       <CustomSlider />
+      <AddSection/>
     </>
   );
 }
