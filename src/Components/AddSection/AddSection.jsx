@@ -1,5 +1,6 @@
 import React from "react";
 import add from "../../assets/add.jpg";
+import Button from "../Button/Button";
 
 function AddSection() {
   const info = [
@@ -23,15 +24,16 @@ function AddSection() {
           />
         </div>
 
-        <div className="bg-white shadow-lg z-10 p-8 h-[300px] border-2 my-2 border-red-500 w-[1470px]">
+        <div className="bg-white shadow-lg z-10 p-8 h-[300px]  my-2-500 w-[1470px]">
           <h2 className="text-3xl font-bold ml-40">
             <span className="text-orange-500">About</span>{" "}
             {item.title.replace("About ", "")}
           </h2>
-          <div className=" h-fit my-5 border-2 ml-40 border-red-500 w-[1090px]">
+          <div className=" h-[200px] my-5  ml-40 w-[1090px]">
         <p>{item.paraline}</p>
+        <Button contant="Read more" className="mt-5 "/>
           </div>
-          
+
         </div>
         
       </div>
