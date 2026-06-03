@@ -31,7 +31,7 @@ function AddSection() {
           </h2>
           <div className=" h-[200px] my-5  ml-40 w-[1090px]">
         <p>{item.paraline}</p>
-        <Button contant="Read more" className="mt-5 "/>
+        <Button contant="Read more"/>
           </div>
 
         </div>
